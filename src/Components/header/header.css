@@ -1,5 +1,38 @@
+.html {
+    margin-top: 0rem;
+}
 .headerPic {
+    margin-top: 0rem;
     background-image: url('../../Images/HeaderDesktop.jpg');
-    width: auto;
-    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+.title {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    background-color: rgb(250, 189, 36);
+    color: white;
+    text-align: center;
+}
+.nav {
+    width: fit-content;
+    border-bottom: solid  white 3px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: initial;
+}
+.search {
+    display: inline;
+    margin-left: 32rem;
+}
+.nav:hover {
+    cursor: pointer;
+    color: rgb(250, 189, 36);
+    border-bottom: solid rgb(250, 189, 36) 3px;
+}
+#navwrap {
+    display: flex;
+    justify-content: center;
 }
